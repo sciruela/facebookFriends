@@ -1,7 +1,7 @@
 require(RCurl)
 require(rjson)
 
-myaccess_token<-"AAAAAAITEghMBAGDGWHL7AUMuN08yMltAaicXcb04lvBjpnhm6paZCXDKbd5wOOYKNAz4iluBeICNexyeHSPtFZAf2jiavFVBtpcM8Q9wZDZD"
+myaccess_token<-"YOUR_ACCESS_TOKEN"
 
 facebook <-  function( path = "me", access_token = access_token, options){
     if( !missing(options) ){
